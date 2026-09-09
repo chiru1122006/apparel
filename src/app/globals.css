@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-jakarta), "Plus Jakarta Sans", "Manrope", sans-serif;
+  --font-sans: var(--font-jakarta), "Plus Jakarta Sans", "Manrope", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-script: var(--font-script), "Alex Brush", "Dancing Script", cursive;
+
+  --color-canvas: #FDFBF7;
+  --color-canvas-subtle: #F7F4EC;
+  --color-canvas-pure: #FFFFFF;
+  --color-charcoal: #12161A;
+  --color-charcoal-body: #242B35;
+  --color-charcoal-muted: #4B5563;
+  --color-charcoal-light: #6B7280;
+  --color-navy: #0F172A;
+  --color-navy-muted: #1E293B;
+  --color-navy-deep: #0A101C;
+  --color-gold: #B89047;
+  --color-gold-muted: #C5A880;
+  --color-gold-light: #F5EFE3;
+  --color-border-subtle: #E8E3D8;
+  --color-border-light: #F0ECE1;
+}
+
+:root {
+  --background: #FDFBF7;
+  --foreground: #12161A;
+}
+
+html {
+  letter-spacing: 0;
+  scroll-behavior: auto; /* Handled by Lenis */
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  letter-spacing: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Lenis recommended smooth scroll styles */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Subtle tailor stitch motif utility */
+.stitch-border-top {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #B89047 0,
+    #B89047 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.stitch-border-bottom {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #B89047 0,
+    #B89047 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.stitch-border-divider {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #D0C7B7 0,
+    #D0C7B7 5px,
+    transparent 5px,
+    transparent 10px
+  );
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Focus styling for accessibility */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 2px solid #B89047;
+  outline-offset: 2px;
+}
