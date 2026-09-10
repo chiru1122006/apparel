@@ -82,7 +82,7 @@ export default function Team() {
               transition: { staggerChildren: 0.1 },
             },
           }}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 w-full text-left"
+          className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5 w-full text-left"
         >
           {TEAM_DATA.blocks.map((block, idx) => {
             const Icon = iconMap[idx % iconMap.length];
@@ -110,11 +110,7 @@ export default function Team() {
                       {block.number} {"//"} {block.tag}
                     </span>
 
-                    {block.metric && (
-                      <span className="inline-flex items-center px-2 py-0.5 rounded-[4px] bg-[#F7F4EB] border border-[#EBE4D5] text-[10px] font-mono font-bold text-[#171717]">
-                        {block.metric}
-                      </span>
-                    )}
+                    
                   </div>
 
                   {/* Icon & Title */}

@@ -138,11 +138,7 @@ export default function About() {
                           {highlight.tag}
                         </span>
 
-                        {highlight.metric && (
-                          <span className="inline-flex items-center px-2 py-0.5 rounded-[4px] bg-[#F7F4EB] border border-[#EBE4D5] text-[10px] font-mono font-semibold text-[#171717]">
-                            {highlight.metric}
-                          </span>
-                        )}
+                        
                       </div>
 
                       {/* Icon & Title */}
@@ -176,10 +172,9 @@ export default function About() {
 
                     {/* Bottom Status & Action Bar */}
                     <div className="pt-4 border-t border-black/5 flex items-center justify-between mt-auto">
-                      <span className="inline-flex items-center gap-1.5 text-[10px] font-semibold text-[#171717] uppercase tracking-wider">
-                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                        {highlight.status}
-                      </span>
+                      <span className="text-[10px] font-medium text-[#7C6337] tracking-wider uppercase">
+    Concord Quality
+  </span>
 
                       <ArrowUpRight className="w-4 h-4 text-[#171717] opacity-40 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200" />
                     </div>

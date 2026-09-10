@@ -131,9 +131,9 @@ export default function Services() {
       <div className="w-full mb-8 sm:mb-12 select-none overflow-hidden">
         <ScrollVelocity
           texts={[
-            "✦ PREMIUM SCHOOL & COLLEGE UNIFORMS ✦ 25+ YEARS OF TRUST ✦ PERFECT FIT GUARANTEE",
-            "✦ DURABLE WASH-TESTED FABRICS ✦ ALL-DAY COMFORT ✦ NEAT STITCHING ✦ ON-TIME CAMPUS DELIVERY",
-          ]}
+    "✦ QUALITY SCHOOL & COLLEGE UNIFORMS ✦ 25+ YEARS OF EXPERIENCE ✦ COMFORTABLE ALL-DAY WEAR",
+    "✦ DURABLE WASH-RESISTANT WEAVES ✦ CUSTOM SCHOOL BADGES & CRESTS ✦ ON-TIME CAMPUS DELIVERY",
+  ]}
           velocity={35}
           className="font-sans font-bold uppercase text-sm sm:text-xl lg:text-2xl tracking-[0.12em] text-[#171717]/85 py-1"
         />

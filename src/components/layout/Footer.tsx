@@ -76,8 +76,17 @@ export default function Footer() {
                 <SocialIcon name="Facebook" href="https://facebook.com" />
                 <SocialIcon name="Twitter" href="https://twitter.com" />
                 <SocialIcon name="LinkedIn" href="https://linkedin.com" />
-                <SocialIcon name="Instagram" href="https://instagram.com" />
+                <SocialIcon name="Instagram" href="https://www.instagram.com/concordapparel.in/" />
               </div>
+              <a
+                href="https://www.instagram.com/concordapparel.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-xs text-[#94A3B8] hover:text-[#B89047] transition-colors mt-2"
+              >
+                <span className="font-semibold text-[#B89047]">@concordapparel.in</span>
+                <span className="text-[11px] text-[#64748B]">on Instagram</span>
+              </a>
             </div>
           </div>
 
