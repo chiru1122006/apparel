@@ -64,7 +64,7 @@ export default function Footer() {
             </p>
 
             <p className="font-sans text-xs text-[#64748B] max-w-sm leading-relaxed">
-              Crafting bespoke institutional identity apparel with ergonomic durability, certified colorfast weaves, and campus delivery services across India.
+              Making durable, comfortable school uniforms with premium fabrics and timely on-campus delivery across India.
             </p>
 
             {/* Social Media Links */}
@@ -157,7 +157,7 @@ export default function Footer() {
                 href="#contact"
                 className="flex items-center justify-between text-xs text-white hover:text-[#B89047] transition-colors"
               >
-                <span>Institutional Consultation</span>
+                <span>Request a Free Quote</span>
                 <ArrowUpRight className="w-3.5 h-3.5 text-[#B89047]" />
               </Link>
             </div>
@@ -171,7 +171,7 @@ export default function Footer() {
           </p>
 
           <p className="text-[11px] text-[#475569]">
-            Designed for Institutional Precision & Excellence
+            Quality Uniforms Made to Last
           </p>
         </div>
       </div>

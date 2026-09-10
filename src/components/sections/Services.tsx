@@ -109,10 +109,10 @@ function ServiceCard({
           <Link
             href="#contact"
             className="group/cta relative inline-flex items-center justify-between w-full py-0.5 text-[11px] sm:text-xs font-semibold text-[#1A2333] hover:text-black tracking-wide transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#B89047] rounded-xs"
-            aria-label={`Inquire for Institutional Bulk - ${service.title}`}
+            aria-label={`Request Bulk Quote - ${service.title}`}
           >
             <span className="relative">
-              Inquire for Institutional Bulk
+              Request Bulk Quote
               <span className="absolute left-0 -bottom-0.5 h-[1.5px] w-0 bg-[#B89047] group-hover/cta:w-full group-hover:w-full transition-all duration-300 ease-out" />
             </span>
 
@@ -131,11 +131,11 @@ export default function Services() {
       <div className="w-full mb-8 sm:mb-12 select-none overflow-hidden">
         <ScrollVelocity
           texts={[
-            "✦ BESPOKE INSTITUTIONAL CRAFTSMANSHIP ✦ 25+ YEARS OF HERITAGE ✦ ANATOMICAL PATTERN DRAFTING",
-            "✦ 400+ WASH RESILIENCE ✦ ZERO DEFECT WEAVES ✦ TAJIMA EMBROIDERY ✦ CAMPUS COUTURE",
+            "✦ PREMIUM SCHOOL & COLLEGE UNIFORMS ✦ 25+ YEARS OF TRUST ✦ PERFECT FIT GUARANTEE",
+            "✦ DURABLE WASH-TESTED FABRICS ✦ ALL-DAY COMFORT ✦ NEAT STITCHING ✦ ON-TIME CAMPUS DELIVERY",
           ]}
-          velocity={40}
-          className="font-sans font-extrabold uppercase text-lg sm:text-2xl lg:text-3xl tracking-[0.16em] text-[#171717]/80 py-1"
+          velocity={35}
+          className="font-sans font-bold uppercase text-sm sm:text-xl lg:text-2xl tracking-[0.12em] text-[#171717]/85 py-1"
         />
       </div>
 
@@ -143,8 +143,8 @@ export default function Services() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-4 sm:pt-6">
         {/* Section Header with script text */}
         <SectionHeading
-          scriptText="Connection & Care"
-          badge="Product Lines"
+          scriptText="Made for Daily Wear"
+          badge="Uniform Collections"
           title={SERVICES_DATA.heading}
           subtitle={SERVICES_DATA.introduction}
           align="center"
@@ -161,7 +161,7 @@ export default function Services() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-center">
           <div className="inline-flex items-center gap-4 px-5 py-2.5 rounded-[8px] bg-white border border-[#DDD5C5] shadow-xs">
             <span className="text-xs sm:text-sm font-medium text-[#4B5563]">
-              Need a custom blend, proprietary weave, or special institutional insignia?
+              Need custom school colors, specific fabrics, or woven badges?
             </span>
             <Link
               href="#contact"

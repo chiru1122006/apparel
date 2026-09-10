@@ -8,9 +8,9 @@ function StatItemContent() {
     <div className="flex items-center whitespace-nowrap">
       {STATS_DATA.map((stat) => (
         <React.Fragment key={stat.label}>
-          <div className="flex items-center gap-4 font-sans shrink-0">
+          <div className="flex items-center gap-3 sm:gap-4 font-sans shrink-0">
             <span
-              className="text-3xl sm:text-4xl lg:text-[44px] font-bold leading-none tracking-tight"
+              className="text-2xl sm:text-4xl lg:text-[44px] font-bold leading-none tracking-tight"
               style={{
                 background: "linear-gradient(135deg, #ffffff 0%, #9ca3af 100%)",
                 WebkitBackgroundClip: "text",
@@ -23,14 +23,14 @@ function StatItemContent() {
               <span className="text-xs sm:text-sm font-semibold text-white tracking-wide leading-tight">
                 {stat.label}
               </span>
-              <span className="text-[11px] font-medium text-[#9ca3af] leading-tight mt-0.5">
+              <span className="text-[10px] sm:text-[11px] font-medium text-[#9ca3af] leading-tight mt-0.5">
                 {stat.sublabel}
               </span>
             </div>
           </div>
 
           {/* Rotating Star Separator */}
-          <span className="mx-6 sm:mx-10 inline-flex items-center justify-center shrink-0">
+          <span className="mx-5 sm:mx-8 lg:mx-10 inline-flex items-center justify-center shrink-0">
             <svg
               viewBox="0 0 24 24"
               fill="none"
@@ -54,7 +54,7 @@ function StatItemContent() {
 
 export default function Stats() {
   return (
-    <section className="relative z-20 py-4 sm:py-6 overflow-hidden bg-transparent select-none">
+    <section className="relative z-20 py-3 sm:py-6 overflow-hidden w-full max-w-full bg-transparent select-none">
       {/* 3D Perspective Container without drop-shadow */}
       <div
         className="w-full relative"
@@ -64,7 +64,7 @@ export default function Stats() {
       >
         {/* Slender Transparent Liquid Glass Marquee Wrapper */}
         <div
-          className="relative w-screen -mx-[50vw] left-1/2 overflow-hidden flex items-center group py-4 sm:py-5.5"
+          className="relative w-screen -mx-[50vw] left-1/2 overflow-hidden flex items-center group py-3.5 sm:py-5"
           style={{
             background: "#000000",
             backdropFilter: "blur(12px)",

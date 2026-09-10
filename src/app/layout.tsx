@@ -21,23 +21,23 @@ const alexBrush = Alex_Brush({
 });
 
 export const metadata: Metadata = {
-  title: "Concord Apparel | Where Uniforms Inspire Identity and Unity",
+  title: "Concord Apparel | School & College Uniforms",
   description:
-    "Indian uniform-design and manufacturing brand for schools, colleges, medical institutions, and hospitality teams. 25+ years of bespoke craftsmanship, tailored fit, and durable institutional attire.",
+    "High-quality, comfortable school and college uniforms. 25+ years of experience, premium durable fabrics, and reliable campus delivery across India.",
   keywords: [
     "School Uniforms India",
     "College Blazers Bangalore",
     "Medical Scrubs Manufacturer",
     "Hospitality Chef Coats",
-    "Institutional Uniforms",
+    "School Uniform Manufacturer",
     "Concord Apparel",
     "Custom Uniform Tailoring",
   ],
   authors: [{ name: "Concord Apparel" }],
   openGraph: {
-    title: "Concord Apparel | Redefining Uniforms for Modern Education",
+    title: "Concord Apparel | Quality Uniforms for Schools & Colleges",
     description:
-      "Crafting uniforms that inspire confidence, comfort, and institutional pride. Trusted by 130+ premier institutions across India.",
+      "Durable, comfortable uniforms that students love to wear. Trusted by 130+ schools and colleges across India.",
     url: "https://concordapparel.in",
     siteName: "Concord Apparel",
     locale: "en_IN",
@@ -45,9 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Concord Apparel | Premium Institutional Uniforms",
+    title: "Concord Apparel | School & College Uniforms",
     description:
-      "Where uniforms inspire identity and unity. Custom uniform design and manufacturing for schools, colleges, and medical centers.",
+      "Durable, comfortable uniforms that students love to wear. Trusted by 130+ schools and colleges across India.",
   },
   icons: {
     icon: "/favicon.svg",
@@ -69,9 +69,12 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={`${jakarta.variable} ${alexBrush.variable} scroll-smooth`}
     >
-      <body className="min-h-screen flex flex-col font-sans bg-transparent text-[#12161A] antialiased selection:bg-[#B89047]/20 selection:text-[#0F172A]">
+      <body
+        suppressHydrationWarning
+        className="min-h-screen flex flex-col font-sans bg-transparent text-[#12161A] antialiased selection:bg-[#B89047]/20 selection:text-[#0F172A]">
         <SmoothScroll>
           <DynamicBackground />
           <Header />

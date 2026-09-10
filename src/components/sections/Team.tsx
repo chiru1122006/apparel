@@ -45,8 +45,8 @@ export default function Team() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col items-center">
         {/* Section Header with script text */}
         <SectionHeading
-          scriptText="Stillness in Motion"
-          badge="Multidisciplinary Talent"
+          scriptText="Crafted with Care"
+          badge="Our Workshop & Team"
           title={TEAM_DATA.heading}
           subtitle={TEAM_DATA.introduction}
           align="center"
@@ -56,14 +56,14 @@ export default function Team() {
         {/* DUAL STUDIO VIDEOS (CLEAN 1080P WITHOUT OVERLAY OPTIONS/TEXT)*/}
         {/* ============================================================ */}
         <div className="w-full mb-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 w-full">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-5 w-full">
             <VideoCard
               src="/hero_images/Designer_working_in_apparel_studio_202609092157.mp4"
-              alt="Couture Pattern & Drafting Studio"
+              alt="Pattern Drafting & Tailoring Studio"
             />
             <VideoCard
               src="/hero_images/Engineer_designing_digital_uniform_1080p_202609092156.mp4"
-              alt="3D Digital Uniform CAD Lab"
+              alt="Digital Sizing & Design Studio"
             />
           </div>
         </div>

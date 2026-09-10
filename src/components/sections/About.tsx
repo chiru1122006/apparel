@@ -33,14 +33,14 @@ export default function About() {
           {/* LEFT COLUMN: Mission, Heading, Kinetic Scroll Statements, and Campus Visual */}
           <div className="lg:col-span-5 lg:sticky lg:top-16 flex flex-col text-left items-start">
             {/* Script Text Mood Marker */}
-            <div className="font-script text-4xl sm:text-5xl lg:text-6xl text-[#181818] mb-2 select-none">
-              Gentle Energy
+            <div className="font-script text-3xl sm:text-5xl lg:text-6xl text-[#181818] mb-2 select-none">
+              Our Promise
             </div>
 
             {/* Heritage & Mission Badge */}
             <div className="inline-flex items-center gap-2 px-3 py-1 mb-5 rounded-full bg-white/70 backdrop-blur-xs border border-[#E7DFC9] text-[11px] font-sans font-medium text-[#7C6337] tracking-wider uppercase">
               <span className="w-1.5 h-1.5 rounded-full bg-[#B89047]" />
-              <span>Heritage &amp; Mission</span>
+              <span>Quality &amp; Comfort</span>
             </div>
 
             {/* Section Headline */}
@@ -62,7 +62,7 @@ export default function About() {
               />
               <ScrollTextReveal
                 text={ABOUT_DATA.statement2}
-                className="text-[11px] sm:text-xs uppercase tracking-[0.14em] text-[#555555] font-semibold leading-relaxed"
+                className="text-xs sm:text-sm text-[#555555] font-normal leading-relaxed"
                 offset={["start 85%", "start 40%"]}
               />
             </div>
@@ -85,10 +85,10 @@ export default function About() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent flex items-end p-4 sm:p-5">
                 <div>
                   <span className="font-mono text-[10px] uppercase tracking-widest text-[#FFD580] font-bold block mb-1">
-                    130+ Premier Institutions
+                    130+ Partner Schools
                   </span>
                   <span className="text-xs sm:text-sm font-semibold text-white leading-snug block">
-                    Dressing generations with uncompromised pride.
+                    Uniforms students love to wear and parents trust.
                   </span>
                 </div>
               </div>
@@ -108,7 +108,7 @@ export default function About() {
                   transition: { staggerChildren: 0.12 },
                 },
               }}
-              className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full"
+              className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 w-full"
             >
               {ABOUT_DATA.highlights.map((highlight) => {
                 const IconComponent =
@@ -129,7 +129,7 @@ export default function About() {
                         },
                       },
                     }}
-                    className="relative p-6 rounded-[10px] bg-white/85 backdrop-blur-md border border-white/80 hover:border-[#171717] hover:shadow-lg transition-all duration-300 flex flex-col justify-between group text-left"
+                    className="relative p-5 sm:p-6 rounded-[10px] bg-white/85 backdrop-blur-md border border-white/80 hover:border-[#171717] hover:shadow-lg transition-all duration-300 flex flex-col justify-between group text-left"
                   >
                     {/* Top Metadata Strip */}
                     <div>

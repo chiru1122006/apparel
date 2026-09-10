@@ -22,7 +22,7 @@ export default function Hero() {
     <section
       ref={sectionRef}
       id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 py-14 sm:py-16 overflow-hidden bg-transparent"
+      className="relative min-h-[92vh] sm:min-h-screen flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 pt-24 pb-14 sm:pt-28 sm:pb-16 overflow-hidden bg-transparent"
     >
 
       {/* Left Parallax Hero Image (positioned lower down in screen, sharp corners) */}
@@ -70,11 +70,11 @@ export default function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-        className="max-w-md sm:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto flex flex-col items-center justify-center z-20 pt-16 sm:pt-20"
+        className="max-w-md sm:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto flex flex-col items-center justify-center z-20 pt-4 sm:pt-8"
       >
         {/* Cursive Script Title */}
         <div className="font-script text-3xl sm:text-4xl lg:text-[44px] text-[#181818] mb-2 select-none">
-          Soft Awakening
+          Crafted for Schools
         </div>
 
         {/* Big Editorial Headline (decreased size) */}
@@ -87,12 +87,12 @@ export default function Hero() {
         </h1>
 
         {/* Description (refined size) */}
-        <p className="font-sans text-[11px] sm:text-xs uppercase tracking-[0.12em] text-[#333333] leading-relaxed max-w-md mb-7 font-medium">
+        <p className="font-sans text-xs sm:text-sm text-[#444444] leading-relaxed max-w-md mb-7 font-normal">
           {HERO_DATA.description}
         </p>
 
         {/* Centered Specular WebGL CTA Button */}
-        <div className="mb-8 flex items-center justify-center">
+        <div className="mb-8 flex items-center justify-center w-full max-w-xs sm:max-w-none">
           <SpecularButton
             href="#contact"
             size="md"
@@ -108,7 +108,7 @@ export default function Hero() {
         </div>
 
         {/* Minimal Trust Badge */}
-        <div className="flex items-center justify-center gap-2 text-[11px] uppercase tracking-[0.1em] font-medium text-[#444444]">
+        <div className="flex items-center justify-center gap-2 text-xs font-medium text-[#444444]">
           <CheckCircle2 className="w-3.5 h-3.5 text-[#171717]" />
           <span>{HERO_DATA.trustMarker}</span>
         </div>

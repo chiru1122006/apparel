@@ -14,22 +14,28 @@ const Header: React.FC = () => {
             top: 0;
             left: 0;
             right: 0;
-            height: 160px;
+            height: 90px;
             z-index: 40;
             pointer-events: none;
-            backdrop-filter: blur(20px); 
-            -webkit-backdrop-filter: blur(20px);
-            /* This mask creates the smooth transition from blurred to clear */
+            backdrop-filter: blur(16px); 
+            -webkit-backdrop-filter: blur(16px);
             mask-image: linear-gradient(to bottom, 
               rgba(0,0,0,1) 0%, 
-              rgba(0,0,0,1) 35%, 
+              rgba(0,0,0,1) 40%, 
               rgba(0,0,0,0) 100%
             );
             -webkit-mask-image: linear-gradient(to bottom, 
               rgba(0,0,0,1) 0%, 
-              rgba(0,0,0,1) 35%, 
+              rgba(0,0,0,1) 40%, 
               rgba(0,0,0,0) 100%
             );
+        }
+        @media (min-width: 640px) {
+          .page-top-blur {
+            height: 140px;
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+          }
         }
       `}</style>
 

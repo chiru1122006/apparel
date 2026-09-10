@@ -47,12 +47,12 @@ export interface ProcessStep {
 
 export const BRAND_INFO = {
   name: "Concord Apparel",
-  tagline: "Where Uniforms Inspire Identity and Unity",
+  tagline: "Comfortable, High-Quality Uniforms for Schools & Colleges",
   email: "info@concordapparel.in",
   phone: "+91 88840 67234",
   phoneDisplay: "+91 88840 67234",
-  address: "Bangalore & Pan-India Manufacturing Centers",
-  operatingHours: "Monday – Saturday: 9:00 AM – 6:30 PM IST",
+  address: "Bangalore, India • Supplying Across the Country",
+  operatingHours: "Monday – Saturday: 9:00 AM – 6:30 PM",
 };
 
 export const NAV_LINKS = [
@@ -65,17 +65,17 @@ export const NAV_LINKS = [
 ];
 
 export const HERO_DATA = {
-  headingLine1: "Redefining Uniforms",
-  headingLine2: "for Modern Education",
+  headingLine1: "Quality Uniforms",
+  headingLine2: "Made for School & College",
   description:
-    "At Concord Apparel, we craft uniforms that inspire confidence, comfort, and institutional pride. With 25+ years of expertise, we bridge tradition with contemporary design.",
-  primaryCta: "Get Started Today",
-  secondaryCta: "Explore Our Work",
-  trustMarker: "Trusted uniform partners for 130+ institutions",
+    "We make durable, comfortable uniforms that students love to wear and schools are proud of. Built with premium fabrics and tailored for an easy, perfect fit.",
+  primaryCta: "Request a Free Quote",
+  secondaryCta: "View Our Work",
+  trustMarker: "Trusted by 130+ schools and colleges",
   image:
-    "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1920&auto=format&fit=crop", // Editorial student group in smart attire
+    "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1920&auto=format&fit=crop",
   accentImage:
-    "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800&auto=format&fit=crop", // Tailoring craftsmanship
+    "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800&auto=format&fit=crop",
 };
 
 export const STATS_DATA: StatItem[] = [
@@ -84,146 +84,178 @@ export const STATS_DATA: StatItem[] = [
     number: 25,
     suffix: "+",
     label: "Years Experience",
-    sublabel: "Mastering institutional apparel",
+    sublabel: "Making school uniforms",
   },
   {
     value: "4",
     number: 4,
     suffix: "",
-    label: "Office Locations",
-    sublabel: "Strategic regional presence",
+    label: "Production Hubs",
+    sublabel: "Across major cities",
   },
   {
     value: "15+",
     number: 15,
     suffix: "+",
-    label: "Product Lines",
-    sublabel: "Tailored to every discipline",
+    label: "Uniform Ranges",
+    sublabel: "For schools, labs & sports",
   },
   {
     value: "130+",
     number: 130,
     suffix: "+",
-    label: "Happy Clients",
-    sublabel: "Premier schools & academies",
+    label: "Partner Schools",
+    sublabel: "Across India",
   },
 ];
 
 export const ABOUT_DATA = {
   heading: "About Concord Apparel",
   intro:
-    "We believe uniforms are powerful expressions of pride, belonging, and institutional identity.",
-  subheading: "Bridging Tradition with Modern Craft",
+    "We believe school uniforms should feel comfortable all day, look sharp, and last the entire academic year.",
+  subheading: "Made for Everyday School Life",
   statement1:
-    "Uniforms once stood only for discipline. We craft them for modern identity, comfort, and institutional pride.",
+    "A uniform should be more than a dress code. It should be comfortable, durable, and easy to wash.",
   statement2:
-    "Engineered with high-durability fabrics and bespoke tailoring that moves with everyday campus life.",
+    "We use strong, breathable fabrics and neat stitching so students can run, play, and learn freely.",
   paragraph1:
-    "Uniforms once stood only for discipline. We craft them for modern identity, comfort, and institutional pride.",
+    "A uniform should be more than a dress code. It should be comfortable, durable, and easy to wash.",
   paragraph2:
-    "Engineered with high-durability fabrics and bespoke tailoring that moves with everyday campus life.",
+    "We use strong, breathable fabrics and neat stitching so students can run, play, and learn freely.",
   image:
-    "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?q=80&w=1200&auto=format&fit=crop", // Precision tailoring and fabric cutting
+    "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?q=80&w=1200&auto=format&fit=crop",
   highlights: [
     {
-      title: "Quality Materials",
+      title: "Durable Fabrics",
       description:
-        "High-twist combed yarns spun for tropical breathability, wrinkle resistance, and extreme wash resilience.",
+        "Soft, breathable fabrics that resist wrinkles and hold up through hundreds of machine washes without fading.",
       iconName: "ShieldCheck",
-      tag: "Material Science",
-      metric: "400+ Wash Resilience",
-      features: ["Anti-Pill Poly-Viscose", "Fade-Proof Dyes", "Oeko-Tex Standard 100"],
-      status: "Laboratory Tested",
+      tag: "Strong Fabric",
+      metric: "400+ Washes Tested",
+      features: [
+        "No fabric bobbling (anti-pill)",
+        "Colors stay bright & fade-proof",
+        "Safe and skin-friendly cotton blends",
+      ],
+      status: "Lab Tested Quality",
     },
     {
-      title: "Modern Designs",
+      title: "Comfortable Fits",
       description:
-        "Clean, contemporary silhouettes engineered to balance formal institutional decorum with unrestricted student movement.",
+        "Smart-looking designs made for real student life—neat collars, flexible waists, and room to move and play.",
       iconName: "Sparkles",
-      tag: "Aesthetic Ergonomics",
-      metric: "3D Ergonomic Slopers",
-      features: ["Structured Lapels", "Comfort-Flex Waistbands", "Bespoke Piping"],
-      status: "Patented Slopers",
+      tag: "Comfort First",
+      metric: "Easy-Move Design",
+      features: [
+        "Clean structured collars",
+        "Comfort stretch waistbands",
+        "Reinforced pocket seams",
+      ],
+      status: "Kid-Approved Fit",
     },
     {
-      title: "Perfect Fit",
+      title: "Guaranteed Fit",
       description:
-        "Campus-wide individual measurement drives backed by digital grading and growth-tolerant internal seam insets.",
+        "We visit your campus to measure students individually, with extra seam fabric inside so uniforms grow with them.",
       iconName: "Scissors",
-      tag: "Precision Sizing",
-      metric: "99.4% First-Time Fit",
-      features: ["On-Campus Sizing Camps", "Growth Seam Insets", "Zero Tailoring Friction"],
-      status: "Guaranteed Fit",
+      tag: "Accurate Sizing",
+      metric: "99% Fit Guarantee",
+      features: [
+        "Free on-campus sizing camps",
+        "Extra inner margin to let out",
+        "Fast, free replacements if needed",
+      ],
+      status: "Perfect Fit",
     },
     {
-      title: "Custom Branding",
+      title: "Custom School Badges",
       description:
-        "Ultra-high-density Japanese embroidery and jacquard crest weaving that maintain sharp clarity for years.",
+        "High-detail school crests and logos embroidered to stay neat, sharp, and intact year after year.",
       iconName: "BadgeCheck",
-      tag: "Insignia & Identity",
-      metric: "120K Stitch Density",
-      features: ["Gold Thread Crests", "Laser-Cut Appliqué", "Woven Jacquard Ties"],
-      status: "Tajima Precision",
+      tag: "School Crest & Logo",
+      metric: "High-Density Stitch",
+      features: [
+        "Precision embroidered crests",
+        "Custom school ties and belts",
+        "Exact school house colors",
+      ],
+      status: "Precision Embroidery",
     },
   ],
 };
 
 export const TEAM_DATA = {
-  heading: "Our Expert Team",
+  heading: "Our Team & Craft",
   introduction:
-    "Backed by over 25 years of collective experience, our diverse team brings innovation, precision, and creativity to every stitch.",
+    "With 25+ years of experience, our skilled pattern makers, tailors, and textile experts craft every uniform with care.",
   blocks: [
     {
       id: "design-expertise",
       number: "01",
-      title: "Design Expertise",
-      subtitle: "Doctorate in Apparel Design & Merchandising",
+      title: "Design & Patterning",
+      subtitle: "Experienced Textile Specialists",
       description:
-        "Academic rigor meets practical ergonomics to formulate breathable, climate-resilient apparel patterns tailored for Indian institutional climates.",
-      tag: "Couture & Research",
-      metric: "Ph.D. Merchandising",
-      skills: ["Couture Sloper Drafting", "Climate-Resilient Weaves", "Ergonomic Motion Studies"],
-      certified: "Doctoral Research Lead",
+        "Uniform patterns cut specifically for Indian weather—lightweight, breathable, and comfortable in all seasons.",
+      tag: "Design & Fit",
+      metric: "Master Cutters",
+      skills: [
+        "Weather-friendly fabrics",
+        "Clean modern patterns",
+        "Tested for active kids",
+      ],
+      certified: "Quality Certified",
     },
     {
       id: "tech-innovation",
       number: "02",
-      title: "Tech Innovation",
-      subtitle: "Design Engineers from IT Industry",
+      title: "Smart Sizing",
+      subtitle: "Digital Measurement & Tracking",
       description:
-        "Digital sizing frameworks, 3D pattern grading, and automated order-tracking systems that eliminate institutional inventory overhead.",
-      tag: "Digital Precision",
-      metric: "Ex-IT Systems Architects",
-      skills: ["3D Digital Sizing Models", "Automated Grading Algorithms", "Zero-Waste Fabric Nesting"],
-      certified: "Algorithmic Precision",
+        "Digital size management ensures accurate sizing for thousands of students with zero order mix-ups.",
+      tag: "Accurate Sizing",
+      metric: "Zero Size Errors",
+      skills: [
+        "Digital measurement cards",
+        "Grade-by-grade sizing",
+        "Fast re-orders anytime",
+      ],
+      certified: "Digital Accuracy",
     },
     {
       id: "engineering-team",
       number: "03",
-      title: "Engineering Team",
-      subtitle: "Dynamic, Hands-on Engineering Professionals",
+      title: "Strong Stitching",
+      subtitle: "Industrial Quality Production",
       description:
-        "Optimized assembly workflows, ultrasonic fabric binding, and industrial tension testing to ensure zero fraying under rigorous everyday wash cycles.",
-      tag: "Process Excellence",
-      metric: "Industrial Tension Lab",
-      skills: ["High-Tensile Thread Lock", "Double-Stitch Reinforcement", "Industrial Wash Durability"],
-      certified: "ISO Tensile Validated",
+        "Double-needle stitching at pockets, knees, and stress points so uniforms don't tear during sports or play.",
+      tag: "Built to Last",
+      metric: "Reinforced Seams",
+      skills: [
+        "Heavy-duty lock stitching",
+        "Reinforced stress points",
+        "Tear-resistant pocket corners",
+      ],
+      certified: "Tear-Tested Seams",
     },
     {
       id: "delivery-heritage",
       number: "04",
-      title: "25+ Years",
-      subtitle: "School Uniform Design & Service Delivery",
+      title: "25+ Years of Trust",
+      subtitle: "On-Time Campus Delivery",
       description:
-        "A quarter-century of punctual seasonal rollouts, campus fit-check sessions, and direct parent satisfaction across 130+ academic campuses.",
-      tag: "Heritage & Trust",
-      metric: "130+ Institutional Rollouts",
-      skills: ["Campus Fitting Camps", "Annual Delivery Guarantees", "Zero Delayed School Openings"],
-      certified: "Quarter-Century Trust",
+        "We deliver all uniforms directly to your school packed neatly by grade and section, well before reopening day.",
+      tag: "Trusted Delivery",
+      metric: "130+ Schools",
+      skills: [
+        "Packed by class and section",
+        "On-campus alteration team",
+        "100% on-time delivery",
+      ],
+      certified: "On-Time Guarantee",
     },
   ],
   workshopImage:
-    "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=1600&auto=format&fit=crop", // Modern design atelier
+    "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=1600&auto=format&fit=crop",
   secondaryImages: [
     "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=800&auto=format&fit=crop",
@@ -231,20 +263,20 @@ export const TEAM_DATA = {
 };
 
 export const SERVICES_DATA = {
-  heading: "Our Specialty Offerings",
+  heading: "What We Make",
   introduction:
-    "Comprehensive uniform solutions tailored to your institution’s unique requirements and brand identity.",
-  ctaText: "Discuss Your Requirements",
+    "Complete uniform solutions for schools, colleges, laboratories, and hospitality teams.",
+  ctaText: "Request a Free Quote",
   services: [
     {
       id: "boys-uniforms",
       title: "Boys’ Uniforms",
-      subtitle: "Durability meets classic smart structure",
+      subtitle: "Durable, comfortable, and easy to wash",
       category: "School Wear",
       items: [
-        "Formal Trousers (All Grades)",
-        "Full & Half Sleeve Shirts",
-        "Custom Blazers",
+        "Comfortable trousers & shorts",
+        "Crisp full & half sleeve shirts",
+        "Tailored blazers & vests",
       ],
       iconName: "Shirt",
       image: "/hero_images/image1.png",
@@ -252,12 +284,12 @@ export const SERVICES_DATA = {
     {
       id: "girls-uniforms",
       title: "Girls’ Uniforms",
-      subtitle: "Tailored movement and all-day comfort",
+      subtitle: "Smart fits made for all-day comfort",
       category: "School Wear",
       items: [
-        "Pleated & Box Pleated Skirts",
-        "Formal Pinafores & Blouses",
-        "Girls’ Tailored Trousers",
+        "Pleated skirts & divided skirts",
+        "Formal pinafores & shirts",
+        "Comfort-fit tailored trousers",
       ],
       iconName: "Layers",
       image: "/hero_images/image2.png",
@@ -265,12 +297,12 @@ export const SERVICES_DATA = {
     {
       id: "college-uniforms",
       title: "College Uniforms",
-      subtitle: "Professional dignity for higher education",
-      category: "Higher Education",
+      subtitle: "Professional look for higher education",
+      category: "Colleges & Unis",
       items: [
-        "Professional Structured Blazers",
-        "Department-Specific Silhouettes",
-        "Custom Institutional Badges",
+        "Structured college blazers",
+        "Formal shirts and trousers",
+        "Embroidered college ties",
       ],
       iconName: "GraduationCap",
       image: "/hero_images/right_image.png",
@@ -278,12 +310,12 @@ export const SERVICES_DATA = {
     {
       id: "medical-lab-coats",
       title: "Medical & Lab Coats",
-      subtitle: "Sterility, hygiene and scientific compliance",
-      category: "Healthcare",
+      subtitle: "Clean, hygienic, and easy to wash",
+      category: "Healthcare & Labs",
       items: [
-        "Anti-Microbial Laboratory Coats",
-        "Ergonomic Stretch Scrubs",
-        "Autoclave & Bleach Resistant",
+        "Doctor & student lab coats",
+        "Comfort-stretch medical scrubs",
+        "Bleach & stain-resistant cotton",
       ],
       iconName: "Stethoscope",
       image: "/hero_images/image5.png",
@@ -291,25 +323,25 @@ export const SERVICES_DATA = {
     {
       id: "kitchen-chef-wear",
       title: "Kitchen & Chef Wear",
-      subtitle: "Heat resistance, breathability and flair",
+      subtitle: "Cool, breathable, and heat-resistant",
       category: "Hospitality",
       items: [
-        "Double-Breasted Chef Coats",
-        "Flame-Retardant Aprons",
-        "Breathable Mesh Air Vents",
+        "Double-breasted chef coats",
+        "Durable kitchen aprons",
+        "Breathable mesh air vents",
       ],
       iconName: "UtensilsCrossed",
       image: "/hero_images/image4.png",
     },
     {
       id: "bespoke-designs",
-      title: "Bespoke Designs",
-      subtitle: "Signature insignia and exclusive weaves",
-      category: "Specialty",
+      title: "Custom School Sets",
+      subtitle: "Unique colors, checks, and school crests",
+      category: "Custom Tailored",
       items: [
-        "Proprietary Institutional Plaids",
-        "Tajima High-Density Crests",
-        "Custom Pantone Dyed Fabrics",
+        "Custom plaid & check patterns",
+        "Detailed embroidered school crests",
+        "House t-shirts & tracksuits",
       ],
       iconName: "Palette",
       image: "/hero_images/image3.png",
@@ -318,72 +350,72 @@ export const SERVICES_DATA = {
 };
 
 export const PROCESS_DATA = {
-  heading: "Our Process",
+  heading: "How We Work",
   introduction:
-    "From concept to delivery, we ensure excellence at every step of your uniform creation journey.",
+    "From fabric selection to campus delivery, we take care of the entire uniform process for you.",
   steps: [
     {
       stepNumber: "01",
       title: "Consultation",
       description:
-        "Understanding your needs and institutional identity through in-depth discovery sessions.",
-      details: "Brand ethos & fabric climate review",
+        "We discuss your school’s requirements, colors, budget, and fabric preferences.",
+      details: "Free fabric samples & style catalog",
     },
     {
       stepNumber: "02",
       title: "Design",
       description:
-        "Creating custom designs with your branding, exact Pantone colorways, and ergonomic silhouettes.",
-      details: "3D CAD modeling & pattern specs",
+        "We create design mockups with your exact school colors, logos, and cuts.",
+      details: "Accurate color matching & style previews",
     },
     {
       stepNumber: "03",
       title: "Sampling",
       description:
-        "Producing physical sample prototypes for leadership review, wash-testing, and tactile approval.",
-      details: "Institutional sign-off & feedback",
+        "We make sample uniforms for your school leadership and committee to check and approve.",
+      details: "Wash-tested sample prototypes",
     },
     {
       stepNumber: "04",
       title: "Production",
       description:
-        "Manufacturing with strict 7-tier quality control in our advanced industrial facilities.",
-      details: "High-tensile stitching & dye consistency",
+        "We manufacture every piece with strict quality checks and durable stitching.",
+      details: "Double-stitched seams & tested fabrics",
     },
     {
       stepNumber: "05",
       title: "Delivery",
       description:
-        "Timely campus delivery and after-sales support with clear batch packaging by grade and section.",
-      details: "Punctual seasonal turnaround",
+        "Uniforms arrive on time, packed neatly by grade and student section.",
+      details: "Delivered well before school reopens",
     },
     {
       stepNumber: "06",
       title: "Fit Check",
       description:
-        "Individual fit-checks on campus to make appropriate alterations, ensuring every student feels confident.",
-      details: "On-campus tailors & replacement buffer",
+        "Our team comes to your campus to check student fits and handle quick alterations.",
+      details: "On-campus assistance & easy exchanges",
     },
   ],
 };
 
 export const CONTACT_DATA = {
-  heading: "Let’s Partner for Excellence",
+  heading: "Let’s Work Together",
   description:
-    "We look forward to collaborating with you to create uniforms that reflect your values, elevate your identity, and keep students inspired.",
+    "Looking for new uniforms or want to upgrade quality? Reach out to us today for free fabric samples and a custom quote.",
   getInTouchTitle: "Get in Touch",
   getInTouchIntro:
-    "For inquiries or to discuss your uniform requirements, please reach out to our design and marketing team. We’re here to serve you better.",
+    "Call or message us anytime. We will bring fabric samples and size charts directly to your school.",
   email: "info@concordapparel.in",
   phone: "+91 88840 67234",
-  formHeading: "Request a Quote",
+  formHeading: "Request a Free Quote",
   privacyText:
-    "Your details are kept private and used only to respond to your inquiry.",
+    "We respect your privacy. We will only use your contact details to send your quote.",
 };
 
 export const FOOTER_DATA = {
   brand: "Concord Apparel",
-  tagline: "Where Uniforms Inspire Identity and Unity",
+  tagline: "Comfortable, High-Quality Uniforms for Schools & Colleges",
   servicesLinks: [
     { label: "School Uniforms", href: "#services" },
     { label: "College Uniforms", href: "#services" },
@@ -402,6 +434,5 @@ export const FOOTER_DATA = {
     location: "Bangalore, Karnataka, India",
   },
   copyright: "© 2024 Concord Apparel. All rights reserved.",
-  subline: "Redefining Uniforms for Modern Education",
+  subline: "Trusted by 130+ Schools and Colleges Across India",
 };
-

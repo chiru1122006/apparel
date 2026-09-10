@@ -135,12 +135,11 @@ export default function QuoteForm() {
         </div>
 
         <h3 className="font-sans text-2xl sm:text-3xl text-[#0F172A] font-semibold tracking-tight mb-2">
-          Inquiry Successfully Received
+          Quote Request Received!
         </h3>
 
         <p className="font-sans text-sm sm:text-base text-[#4B5563] max-w-md mb-6 leading-relaxed">
-          Thank you for considering Concord Apparel. A senior institutional apparel consultant will review{" "}
-          <strong className="text-[#0F172A]">{formData.institutionName}</strong>&apos;s requirements and contact you within 24 business hours.
+          Thank you for reaching out to Concord Apparel. Our team will review your requirements for <strong className="text-[#0F172A]">{formData.institutionName}</strong> and contact you within 24 hours.
         </p>
 
         <div className="w-full max-w-sm p-4 bg-[#FDFBF7] rounded-[6px] border border-[#E9E4D8] text-xs text-left text-[#525E71] space-y-1.5 mb-6">
@@ -160,20 +159,20 @@ export default function QuoteForm() {
           className="inline-flex items-center gap-2 px-5 py-2.5 rounded-[6px] border border-[#DDD5C5] text-xs font-semibold text-[#0F172A] hover:bg-[#F8F5EE] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#B89047]"
         >
           <RotateCcw className="w-3.5 h-3.5 text-[#B89047]" />
-          <span>Submit Another Inquiry</span>
+          <span>Send Another Request</span>
         </button>
       </div>
     );
   }
 
   return (
-    <div className="bg-white rounded-[8px] p-6 sm:p-8 lg:p-10 border border-[#E5DFD2] shadow-[0_8px_30px_rgb(0,0,0,0.03)]">
+    <div className="bg-white rounded-[8px] p-5 sm:p-8 lg:p-10 border border-[#E5DFD2] shadow-[0_8px_30px_rgb(0,0,0,0.03)]">
       <div className="mb-6">
         <h3 className="font-sans text-2xl sm:text-3xl text-[#0F172A] font-semibold tracking-tight mb-1.5">
           {CONTACT_DATA.formHeading}
         </h3>
         <p className="font-sans text-xs sm:text-sm text-[#525E71]">
-          Provide your institutional specifications and we will prepare a customized fabric swatch catalogue & quotation.
+          Tell us what you need and we will prepare a free sample kit and price quote for your school.
         </p>
       </div>
 
@@ -191,7 +190,7 @@ export default function QuoteForm() {
             htmlFor="institutionName"
             className="block font-sans text-xs font-semibold uppercase tracking-wider text-[#1E293B] mb-1.5"
           >
-            Institution Name <span className="text-red-500">*</span>
+            School or College Name <span className="text-red-500">*</span>
           </label>
           <input
             id="institutionName"
@@ -199,8 +198,8 @@ export default function QuoteForm() {
             type="text"
             value={formData.institutionName}
             onChange={handleChange}
-            placeholder="e.g. St. Jude’s International Academy"
-            className={`w-full px-3.5 py-2.5 rounded-[6px] text-sm text-[#111827] bg-[#FDFBF7] border transition-colors focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#B89047]/80 ${
+            placeholder="e.g. Greenwood High School"
+            className={`w-full px-3.5 py-2.5 rounded-[6px] text-base sm:text-sm min-h-[44px] text-[#111827] bg-[#FDFBF7] border transition-colors focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#B89047]/80 ${
               errors.institutionName
                 ? "border-red-400 bg-red-50/20"
                 : "border-[#DDD5C5] hover:border-[#B89047]/60"
@@ -231,7 +230,7 @@ export default function QuoteForm() {
               value={formData.email}
               onChange={handleChange}
               placeholder="principal@school.edu.in"
-              className={`w-full px-3.5 py-2.5 rounded-[6px] text-sm text-[#111827] bg-[#FDFBF7] border transition-colors focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#B89047]/80 ${
+              className={`w-full px-3.5 py-2.5 rounded-[6px] text-base sm:text-sm min-h-[44px] text-[#111827] bg-[#FDFBF7] border transition-colors focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#B89047]/80 ${
                 errors.email
                   ? "border-red-400 bg-red-50/20"
                   : "border-[#DDD5C5] hover:border-[#B89047]/60"
@@ -260,7 +259,7 @@ export default function QuoteForm() {
               value={formData.phone}
               onChange={handleChange}
               placeholder="+91 98765 43210"
-              className={`w-full px-3.5 py-2.5 rounded-[6px] text-sm text-[#111827] bg-[#FDFBF7] border transition-colors focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#B89047]/80 ${
+              className={`w-full px-3.5 py-2.5 rounded-[6px] text-base sm:text-sm min-h-[44px] text-[#111827] bg-[#FDFBF7] border transition-colors focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#B89047]/80 ${
                 errors.phone
                   ? "border-red-400 bg-red-50/20"
                   : "border-[#DDD5C5] hover:border-[#B89047]/60"
@@ -281,7 +280,7 @@ export default function QuoteForm() {
             htmlFor="requirements"
             className="block font-sans text-xs font-semibold uppercase tracking-wider text-[#1E293B] mb-1.5"
           >
-            Tell us about your uniform requirements <span className="text-red-500">*</span>
+            Tell us about your uniform needs <span className="text-red-500">*</span>
           </label>
           <textarea
             id="requirements"
@@ -289,8 +288,8 @@ export default function QuoteForm() {
             rows={4}
             value={formData.requirements}
             onChange={handleChange}
-            placeholder="Please share target grade levels, approximate quantity, expected rollout timeline, or specific custom branding preferences..."
-            className={`w-full px-3.5 py-2.5 rounded-[6px] text-sm text-[#111827] bg-[#FDFBF7] border transition-colors focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#B89047]/80 resize-y ${
+            placeholder="e.g. Grades 1 to 10, approx. 300 students, need shirts, trousers, and skirts for the new academic year..."
+            className={`w-full px-3.5 py-2.5 rounded-[6px] text-base sm:text-sm min-h-[44px] text-[#111827] bg-[#FDFBF7] border transition-colors focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#B89047]/80 resize-y ${
               errors.requirements
                 ? "border-red-400 bg-red-50/20"
                 : "border-[#DDD5C5] hover:border-[#B89047]/60"
@@ -318,7 +317,7 @@ export default function QuoteForm() {
               </>
             ) : (
               <>
-                <span>Send Inquiry</span>
+                <span>Get Free Quote</span>
                 <Send className="w-4 h-4 text-[#B89047]" />
               </>
             )}
