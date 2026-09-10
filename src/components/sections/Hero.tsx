@@ -74,7 +74,7 @@ export default function Hero() {
       >
         {/* Cursive Script Title */}
         <div className="font-script text-3xl sm:text-4xl lg:text-[44px] text-[#181818] mb-2 select-none">
-          Crafted for Schools
+          Crafted for Institutions
         </div>
 
         {/* Big Editorial Headline (decreased size) */}

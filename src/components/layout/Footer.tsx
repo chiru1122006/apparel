@@ -39,10 +39,10 @@ function SocialIcon({ name, href }: { name: string; href: string }) {
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0D1522] text-[#F8FAFC] pt-16 pb-12 border-t border-[#1C2A40]">
+    <footer className="bg-[#0D1522] text-[#F8FAFC] pt-16 pb-0 border-t border-[#1C2A40] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main 4-Column Footer Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-14 border-b border-[#1E2D44]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-4">
           {/* Brand Column (5 cols) */}
           <div className="lg:col-span-5 space-y-4">
             <Link
@@ -64,7 +64,7 @@ export default function Footer() {
             </p>
 
             <p className="font-sans text-xs text-[#64748B] max-w-sm leading-relaxed">
-              Making durable, comfortable school uniforms with premium fabrics and timely on-campus delivery across India.
+              Making durable, comfortable uniforms with premium fabrics and timely institutional delivery across India.
             </p>
 
             {/* Social Media Links */}
@@ -172,9 +172,24 @@ export default function Footer() {
             </div>
           </div>
         </div>
+      </div>
 
-        {/* Footer Bottom */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#64748B]">
+      {/* Full Panoramic Uniforms Lineup */}
+      <div className="w-full my-6 relative overflow-hidden flex justify-center bg-gradient-to-t from-white/[0.04] via-transparent to-transparent">
+        <div className="w-full max-w-[1400px] px-2 sm:px-4 flex justify-center">
+          <Image
+            src="/hero_images/footer.png"
+            alt="Concord Apparel - Comprehensive Uniform Solutions"
+            width={1923}
+            height={817}
+            className="w-full h-auto object-contain max-h-[260px] sm:max-h-[360px] md:max-h-[440px] lg:max-h-[500px]"
+          />
+        </div>
+      </div>
+
+      {/* Footer Bottom - Moved to the very bottom below the image */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
+        <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#64748B]">
           <p className="text-center sm:text-left">
             {FOOTER_DATA.copyright} | {FOOTER_DATA.subline}
           </p>

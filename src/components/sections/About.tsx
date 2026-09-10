@@ -85,7 +85,7 @@ export default function About() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent flex items-end p-4 sm:p-5">
                 <div>
                   <span className="font-mono text-[10px] uppercase tracking-widest text-[#FFD580] font-bold block mb-1">
-                    130+ Partner Schools
+                    130+ Partner Institutions
                   </span>
                   <span className="text-xs sm:text-sm font-semibold text-white leading-snug block">
                     Uniforms students love to wear and parents trust.

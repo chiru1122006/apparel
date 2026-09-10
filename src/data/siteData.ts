@@ -68,12 +68,12 @@ export const NAV_LINKS = [
 
 export const HERO_DATA = {
   headingLine1: "Quality Uniforms",
-  headingLine2: "Made for School & College",
+  headingLine2: "For Institutions & Industries",
   description:
-    "We make durable, comfortable uniforms that students love to wear and schools are proud of. Built with premium fabrics and tailored for an easy, perfect fit.",
+    "We make durable, comfortable uniforms that wearers love and institutions are proud of. Built with premium fabrics and tailored for an easy, perfect fit across education, healthcare, and industry.",
   primaryCta: "Request a Free Quote",
   secondaryCta: "View Our Work",
-  trustMarker: "Trusted by 130+ schools and colleges",
+  trustMarker: "Trusted by 130+ institutions across India",
   image:
     "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1920&auto=format&fit=crop",
   accentImage:
@@ -86,7 +86,7 @@ export const STATS_DATA: StatItem[] = [
     number: 25,
     suffix: "+",
     label: "Years Experience",
-    sublabel: "Making school uniforms",
+    sublabel: "Institutional uniform crafting",
   },
   {
     value: "4",
@@ -106,7 +106,7 @@ export const STATS_DATA: StatItem[] = [
     value: "130+",
     number: 130,
     suffix: "+",
-    label: "Partner Schools",
+    label: "Partner Institutions",
     sublabel: "Across India",
   },
 ];
@@ -115,7 +115,7 @@ export const ABOUT_DATA = {
   heading: "About Concord Apparel",
   intro:
     "We believe school uniforms should feel comfortable all day, look sharp, and last the entire academic year.",
-  subheading: "Made for Everyday School Life",
+  subheading: "Made for Everyday Institutional Wear",
   statement1:
     "A uniform should be more than a dress code. It should be comfortable, durable, and easy to wash.",
   statement2:

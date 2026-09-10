@@ -133,7 +133,7 @@ export default function Services() {
       <div className="w-full mb-8 sm:mb-12 select-none overflow-hidden">
         <ScrollVelocity
           texts={[
-    "✦ QUALITY SCHOOL & COLLEGE UNIFORMS ✦ 25+ YEARS OF EXPERIENCE ✦ COMFORTABLE ALL-DAY WEAR",
+    "✦ QUALITY INSTITUTIONAL UNIFORMS ✦ 25+ YEARS OF EXPERIENCE ✦ COMFORTABLE ALL-DAY WEAR",
     "✦ DURABLE WASH-RESISTANT WEAVES ✦ CUSTOM SCHOOL BADGES & CRESTS ✦ ON-TIME CAMPUS DELIVERY",
   ]}
           velocity={35}
@@ -163,7 +163,7 @@ export default function Services() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-center">
           <div className="inline-flex items-center gap-4 px-5 py-2.5 rounded-[8px] bg-white border border-[#DDD5C5] shadow-xs">
             <span className="text-xs sm:text-sm font-medium text-[#4B5563]">
-              Need custom school colors, specific fabrics, or woven badges?
+              Need custom institutional colors, specific fabrics, or woven badges?
             </span>
             <Link
               href="#contact"

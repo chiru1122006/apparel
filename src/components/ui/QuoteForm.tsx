@@ -172,7 +172,7 @@ export default function QuoteForm() {
           {CONTACT_DATA.formHeading}
         </h3>
         <p className="font-sans text-xs sm:text-sm text-[#525E71]">
-          Tell us what you need and we will prepare a free sample kit and price quote for your school.
+          Tell us what you need and we will prepare a free sample kit and price quote for your institution.
         </p>
       </div>
 
@@ -190,7 +190,7 @@ export default function QuoteForm() {
             htmlFor="institutionName"
             className="block font-sans text-xs font-semibold uppercase tracking-wider text-[#1E293B] mb-1.5"
           >
-            School or College Name <span className="text-red-500">*</span>
+            Institution or Organization Name <span className="text-red-500">*</span>
           </label>
           <input
             id="institutionName"
