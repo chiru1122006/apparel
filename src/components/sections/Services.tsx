@@ -10,6 +10,7 @@ import {
   Stethoscope,
   UtensilsCrossed,
   Palette,
+  Building2,
   ArrowRight,
 } from "lucide-react";
 import SectionHeading from "../ui/SectionHeading";
@@ -23,6 +24,7 @@ const iconMap = {
   Stethoscope: Stethoscope,
   UtensilsCrossed: UtensilsCrossed,
   Palette: Palette,
+  Building2: Building2,
 };
 
 function ServiceCard({
