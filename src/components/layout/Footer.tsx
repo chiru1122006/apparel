@@ -194,9 +194,18 @@ export default function Footer() {
             {FOOTER_DATA.copyright} | {FOOTER_DATA.subline}
           </p>
 
-          <p className="text-[11px] text-[#475569]">
-            Quality Uniforms Made to Last
-          </p>
+          <div className="flex items-center gap-3">
+            <p className="text-[11px] text-[#475569]">
+              Quality Uniforms Made to Last
+            </p>
+            <span className="text-[#334155]">•</span>
+            <Link
+              href="/admin"
+              className="text-[11px] font-mono text-[#64748B] hover:text-[#B89047] transition-colors"
+            >
+              Admin Portal
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

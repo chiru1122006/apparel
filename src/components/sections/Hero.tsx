@@ -24,7 +24,6 @@ export default function Hero() {
       id="hero"
       className="relative min-h-[92vh] sm:min-h-screen flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 pt-24 pb-14 sm:pt-28 sm:pb-16 overflow-hidden bg-transparent"
     >
-
       {/* Left Parallax Hero Image (positioned lower down in screen, sharp corners) */}
       <div className="hidden md:block absolute left-4 sm:left-6 lg:left-10 xl:left-16 2xl:left-24 bottom-6 sm:bottom-8 lg:bottom-10 xl:bottom-12 z-10 pointer-events-none select-none">
         <motion.div
@@ -45,8 +44,8 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      {/* Right Parallax Hero Image (positioned more up at top, sharp corners) */}
-      <div className="hidden md:block absolute right-4 sm:right-6 lg:right-10 xl:right-16 2xl:right-24 top-10 sm:top-12 lg:top-14 xl:top-16 z-10 pointer-events-none select-none">
+      {/* Right Parallax Hero Image (positioned cleanly below header) */}
+      <div className="hidden md:block absolute right-4 sm:right-6 lg:right-10 xl:right-16 2xl:right-24 top-24 sm:top-28 lg:top-32 xl:top-36 z-10 pointer-events-none select-none">
         <motion.div
           style={{ y: yRight }}
           initial={{ opacity: 0, x: 24 }}

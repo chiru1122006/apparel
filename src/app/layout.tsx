@@ -4,7 +4,6 @@ import "./globals.css";
 import SmoothScroll from "@/components/layout/SmoothScroll";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import DynamicBackground from "@/components/ui/DynamicBackground";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -56,7 +55,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0F172A",
+  themeColor: "#F2F3F5",
   width: "device-width",
   initialScale: 1,
 };
@@ -74,9 +73,9 @@ export default function RootLayout({
     >
       <body
         suppressHydrationWarning
-        className="min-h-screen flex flex-col font-sans bg-transparent text-[#12161A] antialiased selection:bg-[#B89047]/20 selection:text-[#0F172A]">
+        className="min-h-screen flex flex-col font-sans bg-[#F2F3F5] text-[#12161A] antialiased selection:bg-[#B89047]/20 selection:text-[#0F172A]"
+      >
         <SmoothScroll>
-          <DynamicBackground />
           <Header />
           <main className="flex-grow">{children}</main>
           <Footer />

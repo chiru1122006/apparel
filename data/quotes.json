@@ -1,0 +1,47 @@
+[
+  {
+    "id": "QT-520718",
+    "institutionName": "chiru",
+    "email": "123@gmail.com",
+    "phone": "1234567890",
+    "requirements": "adadasdasdsadasdasdasd",
+    "submittedAt": "2026-09-13T16:52:15.207Z",
+    "status": "New"
+  },
+  {
+    "id": "QT-471175",
+    "institutionName": "Bishop Cotton Boys School",
+    "email": "principal@cotton.edu.in",
+    "phone": "+91 99000 11223",
+    "requirements": "1200 blazer sets with golden monograms for grades 8-12",
+    "submittedAt": "2026-09-13T16:49:04.711Z",
+    "status": "New"
+  },
+  {
+    "id": "QT-101",
+    "institutionName": "Delhi Public School, Bangalore",
+    "email": "principal@dpsbangalore.edu.in",
+    "phone": "+91 98450 12345",
+    "requirements": "Complete annual batch of student uniforms for Grades 1-10 (approx. 1,400 students). Includes shirts, trousers, pleated skirts, blazers, and sports tracksuits.",
+    "submittedAt": "2026-09-12T10:30:00.000Z",
+    "status": "In Review"
+  },
+  {
+    "id": "QT-102",
+    "institutionName": "St. Joseph's University & College",
+    "email": "admin@sju.edu.in",
+    "phone": "+91 80222 45678",
+    "requirements": "Formal tailored blazers with custom embroidered university crest for MBA and BCA final-year graduating cohorts (approx. 650 blazers).",
+    "submittedAt": "2026-09-13T09:15:00.000Z",
+    "status": "New"
+  },
+  {
+    "id": "QT-103",
+    "institutionName": "Manipal Health & Allied Sciences",
+    "email": "procurement@manipalhealth.org",
+    "phone": "+91 91234 56789",
+    "requirements": "Antimicrobial hospital scrubs and lab coats for nursing students and resident medical interns. Total requirement approx 850 sets.",
+    "submittedAt": "2026-09-13T14:45:00.000Z",
+    "status": "Contacted"
+  }
+]

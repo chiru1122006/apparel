@@ -5,8 +5,8 @@
   --font-sans: var(--font-jakarta), "Plus Jakarta Sans", "Manrope", -apple-system, BlinkMacSystemFont, sans-serif;
   --font-script: var(--font-script), "Alex Brush", "Dancing Script", cursive;
 
-  --color-canvas: #FDFBF7;
-  --color-canvas-subtle: #F7F4EC;
+  --color-canvas: #F2F3F5;
+  --color-canvas-subtle: #E8EAEE;
   --color-canvas-pure: #FFFFFF;
   --color-charcoal: #12161A;
   --color-charcoal-body: #242B35;
@@ -18,12 +18,12 @@
   --color-gold: #B89047;
   --color-gold-muted: #C5A880;
   --color-gold-light: #F5EFE3;
-  --color-border-subtle: #E8E3D8;
-  --color-border-light: #F0ECE1;
+  --color-border-subtle: #DCDFE4;
+  --color-border-light: #E5E8ED;
 }
 
 :root {
-  --background: #FDFBF7;
+  --background: #F2F3F5;
   --foreground: #12161A;
 }
 
